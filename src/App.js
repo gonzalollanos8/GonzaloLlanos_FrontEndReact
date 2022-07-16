@@ -1,10 +1,15 @@
-import React from "react";
-import Nav from "./Nav";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
-const App =()=> 
-<>
-<h1>hola mundo</h1>
-<Nav/>
-</>
+const App =()=>{
+  return(
+    <>
+    <Header/>
+    <Main/>
+    <Footer/>
+    </>
+  );
+}
 
 export default App
