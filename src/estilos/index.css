@@ -61,19 +61,27 @@ button{
     padding: 2vh;
     margin: 2vh;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .buscador{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 8px 8px 8px 24px;
-    gap: 214px;
     position: absolute;
     width: 664px;
     height: 62px;
     background: #FFFFFF;
     border-radius: 48px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    top: 50vh;
 }
 .search{
     display: flex;
