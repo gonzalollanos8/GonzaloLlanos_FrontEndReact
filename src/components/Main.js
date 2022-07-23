@@ -1,5 +1,5 @@
 import Buscador from "./Buscador"
-import AlbumList from "./Albumlist"
+import AlbumList from "./AlbumList"
 
 const Main=()=>{
     return(

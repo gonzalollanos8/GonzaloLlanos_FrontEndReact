@@ -6,8 +6,8 @@ main{
 }
 
 .material-symbols-outlined {
-  color: #FFFFFF;
-  margin-top: 11px;
+    color: #FFFFFF;
+    margin-top: 11px;
 }
 
 h1{
@@ -43,6 +43,13 @@ a{
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
 }
+a:hover{
+    color: #D6F379;
+}
+span:hover{
+    color: #D6F379;
+}
+
 h3{
     width: 457px;
     height: 64px;
@@ -74,7 +81,6 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 8px 8px 8px 24px;
-    position: absolute;
     width: 664px;
     height: 62px;
     background: #FFFFFF;
@@ -134,11 +140,15 @@ strong{
     font-family: 'Montserrat', sans-serif;
     color: #D6F379;
 }
+img{
+    border-radius: 12px;
+}
 
 .texto {
 	padding:4px;
 	background:#fff;
 }
+
 footer{
     display: flex;
     margin: 15vh;
@@ -147,4 +157,31 @@ footer{
     align-content: space-between;
     justify-content: space-around;
     align-items: flex-start;
+}
+.albumItem{
+    margin-bottom: 10vh;
+    margin-left: 5vh;
+
+}
+.tituloList{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: -60vh;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    
+}
+#listNum{
+    display: flex;
+    margin-left: -70vh;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
